@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen.GUI\\EmmcHaccGen.GUI.csproj": {}
+  },
+  "projects": {
+    "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen.GUI\\EmmcHaccGen.GUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen.GUI\\EmmcHaccGen.GUI.csproj",
+        "projectName": "EmmcHaccGen.GUI",
+        "projectPath": "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen.GUI\\EmmcHaccGen.GUI.csproj",
+        "packagesPath": "C:\\Users\\sthetix\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen.GUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sthetix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen\\EmmcHaccGen.csproj": {
+                "projectPath": "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen\\EmmcHaccGen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.0-rc2.2, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.0-rc2.2, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.0.0-rc2.2, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.0-rc2.2, )"
+            },
+            "MessageBox.Avalonia": {
+              "target": "Package",
+              "version": "[3.0.1-rc2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen\\EmmcHaccGen.csproj": {
+      "version": "3.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen\\EmmcHaccGen.csproj",
+        "projectName": "EmmcHaccGen",
+        "projectPath": "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen\\EmmcHaccGen.csproj",
+        "packagesPath": "C:\\Users\\sthetix\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding Project\\EmmcHaccGen-UX\\EmmcHaccGen\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sthetix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "LibHac": {
+              "target": "Package",
+              "version": "[0.19.0, )"
+            },
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta4.22272.1, )"
+            },
+            "System.CommandLine.DragonFruit": {
+              "target": "Package",
+              "version": "[0.4.0-alpha.22272.1, )"
+            },
+            "System.CommandLine.Rendering": {
+              "target": "Package",
+              "version": "[0.4.0-alpha.22272.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

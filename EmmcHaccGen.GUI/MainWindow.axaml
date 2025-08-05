@@ -1,0 +1,37 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EmmcHaccGen.GUI.MainWindow"
+        Title="EmmcHaccGen.GUI"
+        Width="500"
+        Height="350"
+        CanResize="False">
+    <StackPanel Background="#2FFF">
+        <StackPanel Spacing="10" Margin="10">
+            <Label Margin="0,0,10,0">Prod.keys Location</Label>
+            <DockPanel>
+                <Button Margin="10,0,0,0" DockPanel.Dock="Right" Background="{DynamicResource SystemAccentColor}" Name="ProdKeysInputButton">Browse</Button>
+                <TextBox Watermark="Input location of prod.keys here" Name="ProdKeysInput"></TextBox>
+            </DockPanel>
+            <Label Margin="0,0,10,0">Firmware Location</Label>
+            <DockPanel>
+                <Button Margin="10,0,0,0" DockPanel.Dock="Right" Background="{DynamicResource SystemAccentColor}" Name="FirmwareInputButton">Browse</Button>
+                <TextBox Watermark="Input location of firmware files here" Name="FirmwareInput"></TextBox>
+            </DockPanel>
+            <Label Name="FileStatus" HorizontalAlignment="Center" Margin="0,5,0,0">Welcome to EmmcHaccGen!</Label>
+        </StackPanel>
+
+		<StackPanel Spacing="10" Margin="10" Name="StageTwoPanel" IsEnabled="False">
+			<StackPanel Margin="5,0,0,0" Spacing="5">
+				<Label Content="Select Console Type:" />
+				<ComboBox Name="ConsoleTypeComboBox" SelectedIndex="0">
+					<ComboBoxItem Content="Erista (v1/unpatched)" />
+					<ComboBoxItem Content="Mariko (v2/Lite/OLED)" />
+				</ComboBox>
+			</StackPanel>
+			<Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Background="{DynamicResource SystemAccentColor}" Name="GenerateButton">Generate</Button>
+		</StackPanel>
+    </StackPanel>
+</Window>
