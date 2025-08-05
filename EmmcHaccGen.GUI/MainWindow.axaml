@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="EmmcHaccGen.GUI.MainWindow"
-        Title="EmmcHaccGen.GUI"
+        Title="EmmcHaccGen-UX 1.0.0"
         Width="500"
         Height="350"
         CanResize="False">
@@ -27,7 +27,7 @@
 			<StackPanel Margin="5,0,0,0" Spacing="5">
 				<Label Content="Select Console Type:" />
 				<ComboBox Name="ConsoleTypeComboBox" SelectedIndex="0">
-					<ComboBoxItem Content="Erista (v1/unpatched)" />
+					<ComboBoxItem Content="Erista (v1/patched/unpatched)" />
 					<ComboBoxItem Content="Mariko (v2/Lite/OLED)" />
 				</ComboBox>
 			</StackPanel>
